@@ -1,6 +1,4 @@
-
-
-export default class ItemModel {
+class ItemModel {
   constructor (brand, title, description, descriptionFull, price, currency) {
     this.brand = brand;
     this.title = title;
@@ -10,3 +8,5 @@ export default class ItemModel {
     this.currency = currency;
   }
 }
+
+export default ItemModel
